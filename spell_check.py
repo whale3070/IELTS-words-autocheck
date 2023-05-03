@@ -5,9 +5,9 @@ def load_words(filename):
 
 def check_spelling(user_words, correct_words):
     misspelled_words = []
-    for word in user_words:
-        if word not in correct_words:
-            misspelled_words.append(word)
+    for i, (word, correct_word) in enumerate(zip(user_words, correct_words)):
+        if word != correct_word:
+            misspelled_words.append((i + 1, word, correct_word))
     return misspelled_words
 
 def main():
@@ -36,8 +36,15 @@ def main():
 
     if misspelled_words:
         print("以下单词拼写错误，请检查：")
-        for word in misspelled_words:
-            print(word)
+        for item in misspelled_words:
+            line, wrong_word, correct_word = item
+            print(f"单词行 {line}: {wrong_word}")
+            print(f"正确用法: {correct_word}")
+            print()
+
+        print("您需要加强背诵的单词有：")
+        for _, _, correct_word in misspelled_words:
+            print(correct_word)
     else:
         print("您输入的所有单词拼写正确！")
     
