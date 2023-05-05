@@ -63,7 +63,7 @@ band
 bandage
 bands
 bank
-bankquet
+banquet
 base
 basement
 bases
