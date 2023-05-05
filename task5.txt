@@ -74,7 +74,7 @@ leisure
 lemon
 lender
 length
-lession
+lesson
 letter
 level
 library
