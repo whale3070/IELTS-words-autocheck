@@ -11,4 +11,5 @@ time: 2023年5月
 
 ![image](https://github.com/whale3070/IELTS-words-autocheck/assets/29242426/b51fb9af-3c02-4b84-a50a-1094ae3df37e)
 
-![Uploading image.png…]()
+![image](https://github.com/whale3070/IELTS-words-autocheck/assets/29242426/866d89c5-f7c2-41f1-ab41-65cac37a60a2)
+
